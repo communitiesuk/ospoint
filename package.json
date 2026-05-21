@@ -1,6 +1,6 @@
 {
   "name": "ospoint",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Converts Ordnance Survey grid references into Longitude and Latitude",
   "main": "index.js",
   "scripts": {
