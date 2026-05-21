@@ -1,7 +1,7 @@
 {
   "name": "ospoint",
   "version": "0.2.1",
-  "description": "Converts Ordnance Survey grid references into Longitgude and Latitude",
+  "description": "Converts Ordnance Survey grid references into Longitude and Latitude",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test node_modules/.bin/nyc node_modules/.bin/mocha tests --exit"
@@ -20,9 +20,9 @@
     "eastings"
   ],
   "devDependencies": {
-    "chai": "~4.3.0",
-    "mocha": "~8.3.0",
-    "nyc": "~15.1.0"
+    "chai": "~6.2.2",
+    "mocha": "~11.7.6",
+    "nyc": "~18.0.0"
   },
   "nyc": {
     "include": [
