@@ -6,6 +6,7 @@
   "scripts": {
     "test": "NODE_ENV=test node_modules/.bin/nyc node_modules/.bin/mocha tests --exit"
   },
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/ideal-postcodes/ospoint"
